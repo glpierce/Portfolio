@@ -14,7 +14,7 @@ function Header({ scrollToSection }) {
                 <div style={{marginRight: "25px"}}>
                     <Box sx={{ width: '100%' }}>
                         <Box sx={{ borderBottom: 1, borderColor: 'white' }}>
-                            <Tabs value={null} textColor="white" indicatorColor="primary" >
+                            <Tabs value={null} textColor="white" indicatorColor="#34425A" >
                                 <Tab style={{color: "white"}} onClick={e => scrollToSection("about")} label="About" />
                                 <Tab style={{color: "white"}} onClick={e => scrollToSection("projects")} label="Projects" />
                                 <Tab style={{color: "white"}} onClick={e => scrollToSection("experience")} label="Experience" />

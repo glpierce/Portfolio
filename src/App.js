@@ -7,15 +7,6 @@ import Projects from "./components/Projects.js"
 import Experience from "./components/Experience.js"
 import Education from "./components/Education.js"
 import Contact from "./components/Contact.js"
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-
-const theme = createTheme({
-  palette: {
-      primary: {
-          main: "#34425A",
-      }
-    },
-})
 
 function App() {
   const aboutRef = useRef(null)
@@ -46,26 +37,24 @@ function App() {
 
   return (
     <div className="App">
-      <ThemeProvider theme={theme}>
-        <Header scrollToSection={scrollToSection}/>
-        <div className='body'>
-          <div className="section" ref={aboutRef}>
-            <About/>
-          </div>
-          <div className="section" ref={projRef}>
-            <Projects/>
-          </div>
-          <div className="section" ref={expRef}>
-            <Experience/>
-          </div>
-          <div className="section" ref={eduRef}>
-            <Education/>
-          </div>
-          <div ref={contRef}>
-            <Contact/>
-          </div>
+      <Header scrollToSection={scrollToSection}/>
+      <div className='body'>
+        <div className="section" ref={aboutRef}>
+          <About/>
         </div>
-      </ThemeProvider>
+        <div className="section" ref={projRef}>
+          <Projects/>
+        </div>
+        <div className="section" ref={expRef}>
+          <Experience/>
+        </div>
+        <div className="section" ref={eduRef}>
+          <Education/>
+        </div>
+        <div ref={contRef}>
+          <Contact/>
+        </div>
+      </div>
     </div>
   );
 }
