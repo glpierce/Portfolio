@@ -1,23 +1,71 @@
 import logo from './logo.svg';
 import './App.css';
+import React, {useRef} from "react"
+import Header from "./components/Header.js"
+import About from "./components/About.js"
+import Projects from "./components/Projects.js"
+import Experience from "./components/Experience.js"
+import Education from "./components/Education.js"
+import Contact from "./components/Contact.js"
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+      primary: {
+          main: "#34425A",
+      }
+    },
+})
 
 function App() {
+  const aboutRef = useRef(null)
+  const projRef = useRef(null)
+  const expRef = useRef(null)
+  const eduRef = useRef(null)
+  const contRef = useRef(null)
+
+  function scrollToSection(destinationSection) {
+    switch (destinationSection) {
+      case "about":
+        aboutRef.current.scrollIntoView({behavior: "smooth", block: "start"})
+        break;
+      case "projects":
+        projRef.current.scrollIntoView({behavior: "smooth", block: "start"})
+        break;
+      case "experience":
+        expRef.current.scrollIntoView({behavior: "smooth", block: "start"})
+        break;
+      case "education":
+        eduRef.current.scrollIntoView({behavior: "smooth", block: "start"})
+        break;
+      case "contact":
+        contRef.current.scrollIntoView({behavior: "smooth", block: "start"})
+        break;
+    }
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={theme}>
+        <Header scrollToSection={scrollToSection}/>
+        <div className='body'>
+          <div className="section" ref={aboutRef}>
+            <About/>
+          </div>
+          <div className="section" ref={projRef}>
+            <Projects/>
+          </div>
+          <div className="section" ref={expRef}>
+            <Experience/>
+          </div>
+          <div className="section" ref={eduRef}>
+            <Education/>
+          </div>
+          <div ref={contRef}>
+            <Contact/>
+          </div>
+        </div>
+      </ThemeProvider>
     </div>
   );
 }

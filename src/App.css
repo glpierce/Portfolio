@@ -1,11 +1,14 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #282c34;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} 
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,19 +16,120 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #282c34;
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 0px;
+}
+
+.TopBand {
+  display: flex;
+  justify-content: center;
+  background-color: #34425A;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 70px;
+  padding-bottom: 20px;
+  width: 1400px;
+}
+
+.body {
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.section {
+  margin-bottom: 100px;
+}
+
+.MyName {
+  color: white;
+  font-family: "Montserrat-Regular";
+  margin-bottom: 8px;
+  margin-right: 5px;
+  white-space: nowrap;
+}
+
+.Blurb {
+  color: white;
+  font-family: "Montserrat-Regular";
+}
+
+.Center {
+  display: flex;
+  justify-content: center;
+}
+
+.ExperienceCard {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding-top: 25px;
+}
+
+.EducationCard {
+  display: flex;
+  flex-direction: column;
+  width: 714px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding-top: 25px;
+}
+
+.TextContainer {
+ margin-left: 10px;
+}
+
+.ExperienceCardHeader {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.HeaderTextContainer {
+  color: white;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.Position {
+  margin: 0px;
+  font-family: "Montserrat-Regular";
+}
+
+.Company {
+  margin: 0px;
+  font-family: "Montserrat-Regular";
+}
+
+.Tenure {
+  margin: 0px;
+  font-family: "Montserrat-Regular";
+}
+
+.ExperienceCardBody {
+  color: white;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
