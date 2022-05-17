@@ -6,11 +6,11 @@ import Brunswick from "../images/Brunswick.png"
 
 function Education() {
     return(
-        <div className="ResumeContainer">
+        <>
 
-        <div className="Center subHeader">
-            <h1 className="MyName">Education</h1>
-        </div>
+            <div className="Center subHeader">
+                <h1 className="MyName">Education</h1>
+            </div>
             
             <div className="Center">
                 <div className="EducationCard">
@@ -77,7 +77,7 @@ function Education() {
                             </li>
                             <li>
                                 <p>
-                                    Stanford Intercollegiate Water Polo - Collegiate Water Polo Assoc. Scholar-Athlete Team
+                                    Stanford Intercollegiate Water Polo - Collegiate Water Polo Association Scholar-Athlete Team
                                 </p>
                             </li>
                         </ul>
@@ -138,8 +138,7 @@ function Education() {
                 </div>
             </div>
 
-
-        </div>
+        </>
     )
 }
 

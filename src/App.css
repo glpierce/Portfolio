@@ -33,13 +33,13 @@
   border-radius: 0px;
 }
 
-.TopBand {
+.band {
   display: flex;
   justify-content: center;
   background-color: #34425A;
 }
 
-.Header {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -49,8 +49,31 @@
   width: 1400px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 1400px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: row;
+  margin-right: 25px;
+}
+
+.contactDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .body {
-  height: calc(100vh - 90px);
+  height: calc(100vh - 160px);
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
@@ -58,6 +81,10 @@
 
 .section {
   margin-bottom: 100px;
+}
+
+.lastSection {
+  min-height: calc(100vh - 160px);
 }
 
 .MyName {
@@ -107,22 +134,24 @@
 }
 
 .HeaderTextContainer {
-  color: white;
   text-align: left;
   margin-left: 10px;
 }
 
 .Position {
+  color: white;
   margin: 0px;
   font-family: "Montserrat-Regular";
 }
 
 .Company {
+  color: white;
   margin: 0px;
   font-family: "Montserrat-Regular";
 }
 
 .Tenure {
+  color: white;
   margin: 0px;
   font-family: "Montserrat-Regular";
 }
@@ -130,6 +159,43 @@
 .ExperienceCardBody {
   color: white;
   text-align: left;
+}
+
+.projectsRow {
+  width: 1050px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projectImageDiv {
+  width: 500px;
+  height: 195px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectImage {
+  width: 500px;
+  max-height: 195px;
+}
+
+.projectTitleDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gitHubButton {
+  width: 32px;
+  height: 32px;
+}
+
+.projectDescription {
+  color: white;
 }
 
 @keyframes App-logo-spin {

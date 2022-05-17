@@ -6,11 +6,11 @@ import Longitude from '../images/Longitude.png';
 
 function Experience() {
     return(
-        <div className="ResumeContainer">
+        <>
 
-        <div className="Center subHeader">
-            <h1 className="MyName">Experience</h1>
-        </div>
+            <div className="Center subHeader">
+                <h1 className="MyName">Experience</h1>
+            </div>
             
             <div className="Center">
                 <div className="ExperienceCard">
@@ -28,22 +28,22 @@ function Experience() {
                         <ul>
                             <li>
                                 <p>
-                                    Principal product manager and subject matter expert for the underlying logic for all Apple Card user transactions, financial calculations, and monthly billing.
+                                    Principal product manager and subject matter expert for the underlying logic for all Apple Card user transactions, financial calculations, and monthly billing
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Worked with and directed developers to build new back-end and front-end product functionality.
+                                    Worked with and directed developers to build new back-end and front-end product functionality
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Analyzed product and customer data using SQL via the Snowflake platform.
+                                    Analyzed product and customer data using SQL via the Snowflake platform
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Conducted customer remediation projects and product fixes with a focus on customer experience and regulatory compliance.
+                                    Conducted customer remediation projects and product fixes with a focus on customer experience and regulatory compliance
                                 </p>
                             </li>
                         </ul>
@@ -67,17 +67,17 @@ function Experience() {
                         <ul>
                             <li>
                                 <p>
-                                    Developed new market segmentation for personal loans and created go-to-market strategies.
+                                    Developed new market segmentation for personal loans and created go-to-market strategies
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Created loan originations models for potential partnerships and participated in partnership negotiations.
+                                    Created loan originations models for potential partnerships and participated in partnership negotiations
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Prepared materials for internal and external pitches and managed ongoing partnerships.
+                                    Prepared materials for internal and external pitches and managed ongoing partnerships
                                 </p>
                             </li>
                         </ul>
@@ -101,17 +101,17 @@ function Experience() {
                         <ul>
                             <li>
                                 <p>
-                                    Conducted a market analysis of German office move market including assessment of the competitive landscape and identification of potential clients.
+                                    Conducted a market analysis of German office move market including assessment of the competitive landscape and identification of potential clients
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Streamlined plans for Visa & Immigration Team operations.
+                                    Streamlined plans for Visa & Immigration Team operations
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Developed training materials and procedures for onboarding new hires.
+                                    Developed training materials and procedures for onboarding new hires
                                 </p>
                             </li>
                         </ul>
@@ -135,17 +135,12 @@ function Experience() {
                         <ul>
                             <li>
                                 <p>
-                                    Conducted a market analysis of German office move market including assessment of the competitive landscape and identification of potential clients.
+                                    Managed background checks, processed on-boarding information, and assisted with audit compliance
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Streamlined plans for Visa & Immigration Team operations.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Developed training materials and procedures for onboarding new hires.
+                                    Communicated with prospective employees throughout the onboarding process
                                 </p>
                             </li>
                         </ul>
@@ -169,12 +164,12 @@ function Experience() {
                         <ul>
                             <li>
                                 <p>
-                                    Conducted reviews of small-cap healthcare IT companies to identify investment opportunities.
+                                    Conducted reviews of small-cap healthcare IT companies to identify investment opportunities
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Participated in meetings with and presented research findings to investment principals.
+                                    Participated in meetings with and presented research findings to investment principals
                                 </p>
                             </li>
                         </ul>
@@ -182,7 +177,7 @@ function Experience() {
                 </div>
             </div>
 
-        </div>
+        </>
     )
 }
 

@@ -29,9 +29,6 @@ function App() {
       case "education":
         eduRef.current.scrollIntoView({behavior: "smooth", block: "start"})
         break;
-      case "contact":
-        contRef.current.scrollIntoView({behavior: "smooth", block: "start"})
-        break;
     }
   }
 
@@ -48,13 +45,11 @@ function App() {
         <div className="section" ref={expRef}>
           <Experience/>
         </div>
-        <div className="section" ref={eduRef}>
+        <div className="lastSection" ref={eduRef}>
           <Education/>
         </div>
-        <div ref={contRef}>
-          <Contact/>
-        </div>
       </div>
+      <Contact/>
     </div>
   );
 }
