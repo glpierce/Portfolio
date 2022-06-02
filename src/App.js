@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {useRef} from "react"
 import Header from "./components/Header.js"
@@ -27,6 +26,8 @@ function App() {
         break;
       case "education":
         eduRef.current.scrollIntoView({behavior: "smooth", block: "start"})
+        break;
+      default:
         break;
     }
   }
