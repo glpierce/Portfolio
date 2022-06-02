@@ -13,7 +13,6 @@ function App() {
   const projRef = useRef(null)
   const expRef = useRef(null)
   const eduRef = useRef(null)
-  const contRef = useRef(null)
 
   function scrollToSection(destinationSection) {
     switch (destinationSection) {
