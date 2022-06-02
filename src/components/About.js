@@ -21,7 +21,7 @@ function About() {
             <div className="Center">
                 <div className="introCard">
                     <p className="Blurb">I'm a full stack developer with experience using technologies including JavaScript, React, Ruby, Rails, and PostgreSQL.</p>
-                    <p className="Blurb">As a former FinTech Product Manager, I've developed strong communication and problem-solving skills and learned to synthesize critical thinking and creativity to accomplish robust projects.</p>
+                    <p className="Blurb">As a former FinTech Product Manager, I've developed strong communication and problem-solving skills and learned to synthesize critical thinking and creativity to accomplish robust and impactful projects.</p>
                     <p className="Blurb">I'm passionate about expanding my knowledge and skillset in order to build the future.</p>
                 </div>
             </div>
