@@ -15,7 +15,7 @@ function Projects() {
 
             <div className="Center">
                 <div className="projectsRow">
-                    <Card variant="outlined" style={{backgroundColor: "#285467", maxWidth: "500px"}} className="projectCard">
+                    <Card variant="outlined" style={{backgroundColor: "#34425A", maxWidth: "500px"}} className="projectCard">
                         <div className="projectImageDiv" style={{backgroundColor: "white"}}>
                             <img src={ForeverPin} className="projectImage" alt="ForeverPin"/>
                         </div> 
@@ -28,7 +28,7 @@ function Projects() {
                         </CardContent>
                     </Card>
 
-                    <Card variant="outlined" style={{backgroundColor: "#285467", width: "500px"}} className="projectCard">
+                    <Card variant="outlined" style={{backgroundColor: "#34425A", width: "500px"}} className="projectCard">
                         <div className="projectImageDiv" style={{backgroundColor: "#083C5A"}}>
                             <img src={iCharge} className="projectImage" alt="iCharge"/>
                         </div>

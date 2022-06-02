@@ -1,4 +1,6 @@
 import React from "react"
+import { saveAs } from "file-saver";
+//import Resume from "../images/Resume.pdf"
 import GitHubMark from "../images/GitHubMark.png"
 import GitHubLogo from "../images/GitHubLogo.png"
 import Linkedin from "../images/Linkedin.png"
@@ -9,8 +11,11 @@ import DownloadIcon from '@mui/icons-material/Download';
 
 function Contact() {
 
-    return(
+    function downloadResume() {
+        //saveAs(Resume, "Grant-Pierce-Resume.pdf")
+    }
 
+    return(
         <div className="band">
             <div className="footer">
 
@@ -29,7 +34,7 @@ function Contact() {
                     <p className="Position" style={{marginLeft: "5px"}}>glpierce174@gmail.com</p>
                 </div>
 
-                <div className="contactDiv">
+                <div className="contactDiv" style={{cursor: "pointer"}} onClick={e => downloadResume()}>
                     <DownloadIcon style={{color: "white"}}/>
                     <p className="Position" style={{marginLeft: "2px"}}>Resume</p>
                 </div>
@@ -43,7 +48,6 @@ function Contact() {
                     
             </div>
         </div>
-        
     )
 }
 
