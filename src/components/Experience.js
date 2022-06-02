@@ -28,17 +28,17 @@ function Experience() {
                         <ul>
                             <li>
                                 <p>
-                                    Principal product manager and subject matter expert for the underlying logic for all Apple Card user transactions, financial calculations, and monthly billing
+                                    Principal product manager and subject matter expert for all user transactions, financial calculations, and monthly billing for Apple Card’s 3M+ users
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Worked with and directed developers to build new back-end and front-end product functionality
+                                    Worked with and directed developers to build new back-end functionality and product enhancements generating over $100K of incremental monthly revenue
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Analyzed product and customer data using SQL via the Snowflake platform
+                                    Analyzed product and customer data using SQL via the Snowflake platform to identify pain points and growth opportunities
                                 </p>
                             </li>
                             <li>
