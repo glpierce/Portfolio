@@ -11,6 +11,64 @@ function Education() {
             <div className="Center subHeader">
                 <h1 className="MyName">Education</h1>
             </div>
+
+            <div className="Center">
+                <div className="EducationCard">
+                    <div className="ExperienceCardHeader">
+                        <div className="LogoContainer">
+                            <img src={Stanford} alt="Stanford University" width="60" height="60"></img>
+                        </div>
+                        <div className="HeaderTextContainer">
+                            <h3 className="Position">Stanford Center for Professional Development</h3>
+                            <h5 className="Company">Stanford University</h5>
+                            <h5 className="Tenure">June 2022 - August 2022</h5>
+                        </div>
+                    </div>
+                    <div className="ExperienceCardBody">
+                        <ul>
+                            <li>
+                                <p>
+                                    GPA: 4.3/4.0
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    CS103 - Mathematical Foundations of Computing
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Grade: A+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Coursework included: mathematical proofwriting, propositional & first-order logic, set theory, binary relations, graph theory, mathematical induction, finite automata, regex, context-free grammars, decidable & recognizable languages, self-reference, P vs. NP
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>
+                                    CS106B - Programming Abstractions
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Grade: A+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Coursework included: object-oriented programming, fundamental data structures, data-directed design, recursion and recursive data structures, dynamic memory
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             
             <div className="Center">
                 <div className="EducationCard">
