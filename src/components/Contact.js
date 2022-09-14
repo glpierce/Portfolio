@@ -1,6 +1,6 @@
 import React from "react"
 import { saveAs } from "file-saver";
-import GLPResume from "../images/GLPResume.pdf"
+import Resume from "../images/GLP-SE-Resume.pdf"
 import GitHubMark from "../images/GitHubMark.png"
 import GitHubLogo from "../images/GitHubLogo.png"
 import Linkedin from "../images/Linkedin.png"
@@ -12,7 +12,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 function Contact() {
 
     function downloadResume() {
-        saveAs(GLPResume, "Grant-Pierce-Resume.pdf")
+        saveAs(Resume, "Grant-Pierce-Resume.pdf")
     }
 
     return(
