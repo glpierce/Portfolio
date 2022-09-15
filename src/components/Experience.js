@@ -7,7 +7,6 @@ import Longitude from '../images/Longitude.png';
 function Experience() {
     return(
         <>
-
             <div className="Center subHeader">
                 <h1 className="MyName">Experience</h1>
             </div>
@@ -176,7 +175,6 @@ function Experience() {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
