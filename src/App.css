@@ -23,7 +23,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #282c34;
+  box-shadow: inset 0 0 5px ;
   border-radius: 0px;
 }
 
