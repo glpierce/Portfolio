@@ -48,14 +48,25 @@
   padding-bottom: 20px;
   width: 1400px;
 }
+.footerBand {
+  height: 70px;
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  top: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  background-color: #34425A;
+  z-index: 11;
+}
 
 .footer {
+  height: 70px;
+  width: 1400px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 70px;
-  width: 1400px;
 }
 
 .contactDetails {
@@ -72,9 +83,91 @@
 
 .body {
   height: calc(100vh - 160px);
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  top: 90px;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  z-index: 10;
+}
+
+.bodyBackground {
+  
+}
+
+.backgroundContainer {
+  position: absolute;
+  left: 0px;
+  top: 90px;
+  z-index: 0;
+}
+
+
+.foothills {
+  position: absolute;
+  left: 0px;
+  top: calc(100vh - 310px);
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+}
+
+.arrowUpFoot {
+  width: 0; 
+  height: 0; 
+  border-left: calc(100vw / 4) solid transparent;
+  border-right: calc(100vw / 4) solid transparent;
+  border-bottom: 150px solid #186118;
+}
+
+.peaks {
+  position: absolute;
+  left: 0px;
+  top: calc(100vh - 360px);
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+}
+
+.arrowUpPeak {
+  width: 0; 
+  height: 0; 
+  border-left: calc(100vw / 8) solid transparent;
+  border-right: calc(100vw / 8) solid transparent;
+  border-bottom: 200px solid #0e380e;
+}
+
+.highPeaks {
+  position: absolute;
+  width: 100vw;
+  left: 0px;
+  top: calc(100vh - 460px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.arrowUpHighPeak {
+  width: 0; 
+  height: 0; 
+  border-left: calc(100vw / 4) solid transparent;
+  border-right: calc(100vw / 4) solid transparent;
+  border-bottom: 300px solid #071e07;
+}
+
+.arrowUpHighPeakRight {
+  width: 0; 
+  height: 0; 
+  border-left: calc(100vw / 4) solid transparent;
+  border-bottom: 300px solid #071e07;
+}
+.arrowUpHighPeakLeft {
+  width: 0; 
+  height: 0; 
+  border-right: calc(100vw / 4) solid transparent;
+  border-bottom: 300px solid #071e07;
 }
 
 .section {
@@ -233,6 +326,7 @@
 .projectDescription {
   color: white;
 }
+
 
 @keyframes App-logo-spin {
   from {

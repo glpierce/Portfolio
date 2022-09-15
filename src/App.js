@@ -35,20 +35,46 @@ function App() {
   return (
     <div className="App">
       <Header scrollToSection={scrollToSection}/>
-      <div className='body'>
-        <div className="section" ref={aboutRef}>
-          <About/>
+
+      <div className='bodyBackground'>
+        <div className='body'>
+          <div className="section" ref={aboutRef}>
+            <About/>
+          </div>
+          <div className="section" ref={projRef}>
+            <Projects/>
+          </div>
+          <div className="section" ref={expRef}>
+            <Experience/>
+          </div>
+          <div className="lastSection" ref={eduRef}>
+            <Education/>
+          </div>
         </div>
-        <div className="section" ref={projRef}>
-          <Projects/>
-        </div>
-        <div className="section" ref={expRef}>
-          <Experience/>
-        </div>
-        <div className="lastSection" ref={eduRef}>
-          <Education/>
+
+        <div className='backgroundContainer'>
+          <div className='foothills'>
+            <div className='arrowUpFoot'/>
+            <div className='arrowUpFoot'/>
+          </div>
+          <div className='peaks'>
+            <div className='arrowUpPeak'/>
+            <div className='arrowUpPeak'/>
+            <div className='arrowUpPeak'/>
+            <div className='arrowUpPeak'/>
+          </div>
+          <div className='highPeaks'>
+            <div className='arrowUpHighPeakLeft'/>
+            <div className='arrowUpHighPeak'/>
+            <div className='arrowUpHighPeakRight'/>
+          </div>
+          <div className='highPeaks'>
+            <div className='arrowUpHighPeak'/>
+            <div className='arrowUpHighPeak'/>
+          </div>
         </div>
       </div>
+
       <Contact/>
     </div>
   );

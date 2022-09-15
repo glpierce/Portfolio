@@ -1,6 +1,6 @@
 import React from "react"
 import { saveAs } from "file-saver";
-import Resume from "../images/GLP-SE-Resume.pdf"
+import Resume from "../images/GLP-Resume.pdf"
 import GitHubMark from "../images/GitHubMark.png"
 import GitHubLogo from "../images/GitHubLogo.png"
 import Linkedin from "../images/Linkedin.png"
@@ -16,7 +16,7 @@ function Contact() {
     }
 
     return(
-        <div className="band">
+        <div className="footerBand">
             <div className="footer">
 
                 <div className="contactDiv">

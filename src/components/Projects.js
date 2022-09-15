@@ -33,7 +33,7 @@ function Projects() {
                         </div> 
                         <CardContent>
                             <div className="projectTitleDiv">
-                                <h2 className="Position">ForeverPin</h2>
+                                <h2 className="Position">Forever Pin</h2>
                                 <div className="dynamicGitHub" onMouseEnter={e => setGitHub("foreverpin")} onMouseLeave={e => setGitHub(null)} onClick={e => linkToGitHub(e, "https://github.com/glpierce/ForeverPin")}>
                                     <img src={GitHubMarkLarge} style={{height: "34px"}} alt="GitHub Mark"/>
                                     <Slide direction="left" in={gitHub==="foreverpin" ? true : false} mountOnEnter unmountOnExit>
@@ -82,6 +82,12 @@ function Projects() {
                             <p className="projectDescription">Electric vehicle (EV) charging station finder with search and filtering tools that enable users to find and get directions to EV chargers</p>
                         </CardContent>
                     </Card>
+
+                    <Card variant="outlined" style={{cursor: "default", backgroundColor: "#34425A", width: "500px", display: "flex", justifyContent: "center", alignItems: "center", borderColor: (project === "more" ? "white" : null)}} onMouseEnter={e => setProject("more")} onMouseLeave={e => setProject(null)}>
+                        <CardContent>
+                            <h2 className="Position"> More coming soon...</h2>
+                        </CardContent>
+                    </Card>   
                 </div>
             </div>
 
