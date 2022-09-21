@@ -82,7 +82,6 @@ function Projects() {
                             <p className="projectDescription">Electric vehicle (EV) charging station finder with search and filtering tools that enable users to find and get directions to EV chargers</p>
                         </CardContent>
                     </Card>
-
                     <Card variant="outlined" style={{cursor: "default", backgroundColor: "#34425A", width: "500px", display: "flex", justifyContent: "center", alignItems: "center", borderColor: (project === "more" ? "white" : null)}} onMouseEnter={e => setProject("more")} onMouseLeave={e => setProject(null)}>
                         <CardContent>
                             <h2 className="Position"> More coming soon...</h2>
