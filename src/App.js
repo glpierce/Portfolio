@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import React, {useRef} from "react"
 import Header from "./components/Header.js"
 import About from "./components/About.js"
