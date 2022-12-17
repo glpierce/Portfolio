@@ -8,7 +8,6 @@ import GraphIt from "../images/GraphItLogo.png"
 import GitHubMarkLarge from "../images/GitHubMarkLarge.png"
 import GitHubLogo from "../images/GitHubLogo.png"
 
-
 function Projects() {
     const [project, setProject] = useState(null)
     const [gitHub, setGitHub] = useState(null)
